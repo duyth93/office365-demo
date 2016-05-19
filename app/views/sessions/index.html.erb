@@ -1,0 +1,11 @@
+<h1>Sessions#index</h1>
+<% if @user.nil? %>
+  <%= link_to "Login via office365 account", sessions_path, method: :post %>
+<% else %>
+  <p>Welcome <h3><%= @user.name %></h3> with <h3><%= @user.email %></h3> </p>
+  <% if @token %>
+    Your new token is: <h3><%= @token %></h3>
+  <% end %>
+  <%= link_to "Renew token", sessions_path, method: :put %>
+  <%= link_to "Logout", sessions_path, method: :delete %>
+<% end %>
