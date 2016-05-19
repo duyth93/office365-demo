@@ -1,5 +1,5 @@
-ENV["CLIENT_ID"] = "1c2fb279-4e2c-4ea8-a4a0-7a797f3598dc"
-ENV["CLIENT_SECRET"] = "LIEs5hFf+79nmf0lzNkHjCeaNfWNKsRzV489xNLTI8s="
+ENV["CLIENT_ID"] = "2b4e4804-d548-4fee-85e9-075ca186a969"
+ENV["CLIENT_SECRET"] = "8vLrzXDLeSammqax9Q2+O2dJVMqdszamID0ORe0WEAo="
 
 # Load the Rails application.
 require File.expand_path("../application", __FILE__)
